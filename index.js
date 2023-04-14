@@ -45,7 +45,7 @@ else {
 //Validar se é par e informar o resultado. 
 
 
-// solicitar número
+/* solicitar número
 const numero = Number(prompt("Digite um número:"))
 
 if (numero %2 === 0) {
@@ -54,6 +54,37 @@ if (numero %2 === 0) {
 else {
     alert("O número " + numero + " é ímpar!")
 }
+*/
+
+/*Solicitar 2 números para o usuário
+//Exibir o maior
+
+const num1 = Number(prompt("Digite qualquer número:"))
+const num2 = Number(prompt("Digite outro número:"))
+
+if (num1 > num2) {
+    alert("O número maior é " + num1)
+}
+else {
+    alert("O número maior é " + num2)
+}
+
+*/
+
+
+//Solicitar 3 números para o usuário
+//Exibir o maior
+
+const num1 = Number(prompt("Digite qualquer número:"))
+const num2 = Number(prompt("Digite outro número:"))
+const num3 = Number(prompt( "Digite outro número: "))
+if (num1 > num2) {
+    alert("O número maior é " + num1)
+}
+else {
+    alert("O número maior é " + num2)
+}
+
 
 
 
